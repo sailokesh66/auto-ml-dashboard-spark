@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// AutoML dashboard colors
+				"automl": {
+					"50": "#f0f9ff",
+					"100": "#e0f2fe",
+					"200": "#b9e6fe",
+					"300": "#7cd4fd",
+					"400": "#36befc",
+					"500": "#0ca4eb",
+					"600": "#0284c7",
+					"700": "#036ba1",
+					"800": "#075985",
+					"900": "#0c4a6e",
+					"950": "#082f49",
+				},
+				"chart-1": "#0ca4eb",
+				"chart-2": "#34d399",
+				"chart-3": "#f59e0b",
+				"chart-4": "#8b5cf6",
+				"chart-5": "#ec4899",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
